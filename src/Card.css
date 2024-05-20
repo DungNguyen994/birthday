@@ -1,0 +1,16 @@
+body {
+  background-color: #ffe4e1;
+}
+.container {
+  width: 100vw;
+  background-color: #ffe4e1;
+  padding: 15px;
+  overflow-y: auto;
+  height: 95vh;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+}
