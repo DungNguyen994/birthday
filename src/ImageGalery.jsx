@@ -4,6 +4,9 @@ import { config } from "react-spring";
 
 const ImageGalery = () => {
   const [goToSlide, setGoToSlide] = React.useState(0);
+  setTimeout(() => {
+    setGoToSlide((prev) => prev + 1);
+  }, 10000);
   const slides = Array.from({ length: 30 }, (v, i) => ({
     key: i + 1,
     content: (
