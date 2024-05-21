@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="birthday-container">
       <h1>Happy Birthday Michelle</h1>
-
       <Birthday />
       <div
         id="testbutton"
