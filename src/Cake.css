@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background: #ffe4e1;
-  cursor: crosshair;
   height: 100vh;
   overflow: hidden;
 }
