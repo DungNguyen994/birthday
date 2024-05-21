@@ -11,9 +11,9 @@ export default function Cake() {
   return (
     <div>
       <BalloonCanvas />
-      <h1>Happy Birthday</h1>
+      <h1>Trúc My Michelle</h1>
       <div className="h2-container">
-        <h2>Michelle</h2>
+        <h2>is turning one</h2>
       </div>
       <div class="cake-box">
         <div class="velas">
