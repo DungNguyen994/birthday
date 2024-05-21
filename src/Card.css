@@ -7,10 +7,17 @@ body {
   padding: 15px;
   overflow-y: auto;
   height: 95vh;
+  max-width: 100% !important;
 }
 .stack {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center children vertically */
   align-items: center; /* Center children horizontally */
+}
+.row {
+  display: flex;
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  padding: 15px;
 }
