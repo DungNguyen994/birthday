@@ -3,8 +3,7 @@ body {
   background: #ffe4e1;
   height: 100vh;
   overflow: hidden;
-  cursor: url("http://www.dolliehost.com/dolliecrave/cursors/cursors-all/animals01.gif"),
-    auto;
+  cursor: url("/cursor.png"), auto;
 }
 canvas {
   display: block;

@@ -1,8 +1,7 @@
 .birthday-container {
   margin: 0;
   background: #020202;
-  cursor: url("http://www.dolliehost.com/dolliecrave/cursors/cursors-all/animals01.gif"),
-    auto;
+  cursor: url("/cursor.png"), auto;
 }
 canvas {
   display: block;
