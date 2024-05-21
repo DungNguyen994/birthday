@@ -7,16 +7,23 @@ canvas {
   display: block;
 }
 h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  color: #fff;
-  font-family: "Source Sans Pro";
-  font-size: 4em;
-  font-weight: 900;
-  -webkit-user-select: none;
-  user-select: none;
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #8b00ff
+  );
+  background-size: 1400% 1400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 10s ease infinite;
+  text-align: center;
 }
 
 body {

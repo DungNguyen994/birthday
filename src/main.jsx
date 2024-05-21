@@ -3,13 +3,14 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import Card from "./Card.jsx";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createMemoryRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import Cake from "./Cake.jsx";
 
-const router = createBrowserRouter([
+const router = createMemoryRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Cake />,
   },
   {
     path: "/card",
