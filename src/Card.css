@@ -21,3 +21,73 @@ body {
   align-items: center; /* Center children horizontally */
   padding: 15px;
 }
+.ReactFlipCard__flipCardFront {
+  .na-back {
+    display: none;
+  }
+  .na {
+    position: absolute;
+    top: 83%;
+    left: 18%;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(
+      45deg,
+      #ff6b6b,
+      #ffde59,
+      #59d6ff,
+      #6bff6b,
+      #7e59ff
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: backgroundAnimation 5s ease infinite,
+      textAnimation 2s ease infinite;
+    @media (min-width: 576px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+.ReactFlipCard__flipCardBack.ReactFlipCard__rotateY180Deg {
+  .na {
+    display: none;
+  }
+  .na-back {
+    position: absolute;
+    top: 61%;
+    left: 49%;
+    font-size: 0.6rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #c09b00, #004c99, #006b2e, #4b0099);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: backgroundAnimation 5s ease infinite,
+      textAnimation 2s ease infinite;
+    @media (min-width: 576px) {
+      font-size: 0.8rem;
+    }
+  }
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes textAnimation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

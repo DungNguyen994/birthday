@@ -15,18 +15,24 @@ const Card = () => {
               marginBottom: "50px",
             }}
             frontComponent={
-              <img
-                className="img-fluid"
-                src={"card-front.PNG"}
-                alt="Card Front"
-              />
+              <>
+                <p className="na">Anh chị/Bạn</p>
+                <img
+                  className="img-fluid"
+                  src={"card-back.PNG"}
+                  alt="Card Front"
+                />
+              </>
             }
             backComponent={
-              <img
-                className="img-fluid"
-                src={"card-back.PNG"}
-                alt="Card Back"
-              />
+              <>
+                <p className="na-back">Anh chị/Bạn</p>
+                <img
+                  className="img-fluid"
+                  src={"card-front.PNG"}
+                  alt="Card Back"
+                />
+              </>
             }
           />
         </div>
