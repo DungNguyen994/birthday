@@ -19,7 +19,7 @@ const Card = () => {
                 <p className="na">Anh chị/Bạn</p>
                 <img
                   className="img-fluid"
-                  src={"card-back.PNG"}
+                  src={"card-front.PNG"}
                   alt="Card Front"
                 />
               </>
@@ -29,7 +29,7 @@ const Card = () => {
                 <p className="na-back">Anh chị/Bạn</p>
                 <img
                   className="img-fluid"
-                  src={"card-front.PNG"}
+                  src={"card-back.PNG"}
                   alt="Card Back"
                 />
               </>
