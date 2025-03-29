@@ -42,34 +42,34 @@ body {
     }
   }
 }
-.ReactFlipCard__flipCardBack.ReactFlipCard__rotateY180Deg {
+/* .ReactFlipCard__flipCardBack.ReactFlipCard__rotateY180Deg {
   .na {
     display: none;
-  }
-  .na-back {
-    position: absolute;
-    top: 36%;
-    left: 25%;
-    font-size: 1.4rem;
-    font-weight: bold;
-    background: linear-gradient(
-      45deg,
-      #ff6b6b,
-      #ffde59,
-      #59d6ff,
-      #6bff6b,
-      #7e59ff
-    );
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: 200% 200%;
-    animation: backgroundAnimation 5s ease infinite,
-      textAnimation 2s ease infinite;
-    @media (min-width: 576px) {
-      font-size: 1.5rem;
-    }
+  } */
+.na-back {
+  position: absolute;
+  top: 24.5%;
+  left: 33%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #88304e,
+    #f7374f,
+    #2c2c2c,
+    #522546,
+    #7e59ff
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: backgroundAnimation 5s ease infinite,
+    textAnimation 2s ease infinite;
+  @media (min-width: 576px) {
+    font-size: 1.5rem;
   }
 }
+/* } */
 @keyframes backgroundAnimation {
   0% {
     background-position: 0% 50%;
