@@ -8,7 +8,7 @@ const Card = () => {
     <div className="container">
       <div className="stack">
         <div className="row">
-          {/* <ReactFlipCard
+          <ReactFlipCard
             containerStyle={{
               width: "100%",
               height: "100%",
@@ -34,10 +34,7 @@ const Card = () => {
                 />
               </>
             }
-          /> */}
-          <div className="card-container">
-            <img className="img-fluid" src={"card-back.PNG"} alt="Card Back" />
-          </div>
+          />
         </div>
         <ImageGalery />
         <iframe
