@@ -46,27 +46,29 @@ body {
   .na {
     display: none;
   } */
-.na-back {
-  position: absolute;
-  top: 24.5%;
-  left: 33%;
-  font-size: 1.2rem;
-  font-weight: bold;
-  background: linear-gradient(
-    45deg,
-    #88304e,
-    #f7374f,
-    #2c2c2c,
-    #522546,
-    #7e59ff
-  );
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: 200% 200%;
-  animation: backgroundAnimation 5s ease infinite,
-    textAnimation 2s ease infinite;
-  @media (min-width: 576px) {
-    font-size: 1.5rem;
+.card-container {
+  .na-back {
+    position: absolute;
+    top: 24.5%;
+    left: 33%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(
+      45deg,
+      #88304e,
+      #f7374f,
+      #2c2c2c,
+      #522546,
+      #7e59ff
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: backgroundAnimation 5s ease infinite,
+      textAnimation 2s ease infinite;
+    @media (min-width: 576px) {
+      font-size: 1.5rem;
+    }
   }
 }
 /* } */

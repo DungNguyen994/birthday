@@ -35,10 +35,9 @@ const Card = () => {
               </>
             }
           /> */}
-          <>
-            <p className="na-back">Anh chị/Bạn</p>
-            <img className="img-fluid" src={"card-back.PNG"} alt="Card Back" />
-          </>
+          <div className="card-container">
+            <img className="img-fluid" src={"card-back.png"} alt="Card Back" />
+          </div>
         </div>
         <ImageGalery />
         <iframe
