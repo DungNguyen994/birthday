@@ -36,7 +36,7 @@ const Card = () => {
             }
           /> */}
           <div className="card-container">
-            <img className="img-fluid" src={"card-back.png"} alt="Card Back" />
+            <img className="img-fluid" src={"card-back.PNG"} alt="Card Back" />
           </div>
         </div>
         <ImageGalery />
