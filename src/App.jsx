@@ -6,7 +6,7 @@ function App() {
   const navigate = useNavigate();
   return (
     <div className="birthday-container">
-      <h1>Happy Birthday Michelle</h1>
+      <h1>Happy Birthday Khả Hân</h1>
       <Birthday />
       <div
         id="testbutton"

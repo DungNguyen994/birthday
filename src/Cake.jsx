@@ -11,7 +11,7 @@ export default function Cake() {
   return (
     <div>
       <BalloonCanvas />
-      <h1>Trúc My Michelle</h1>
+      <h1>Khả Hân</h1>
       <div className="h2-container">
         <h2>is turning one</h2>
       </div>

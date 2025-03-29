@@ -7,11 +7,11 @@ const ImageGalery = () => {
   setTimeout(() => {
     setGoToSlide((prev) => prev + 1);
   }, 5000);
-  const slides = Array.from({ length: 30 }, (v, i) => ({
+  const slides = Array.from({ length: 8 }, (v, i) => ({
     key: i + 1,
     content: (
       <img
-        src={`my${i + 1}.JPG`}
+        src={`${i + 1}.jpg`}
         alt={i + 1}
         onClick={() => setGoToSlide(i)}
         style={{ maxWidth: "333px" }}

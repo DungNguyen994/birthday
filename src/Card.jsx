@@ -38,7 +38,7 @@ const Card = () => {
         </div>
         <ImageGalery />
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.908769319378!2d106.79173878553291!3d10.894537761573053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8c05b9d312f%3A0xa786b49f0a0bbc38!2zMjYgxJAuIELDoCBIdXnhu4duIFRoYW5oIFF1YW4sIEtodSBwaOG7kSBO4buZaSwgRMSpIEFuLCBCw6xuaCBExrDGoW5nLCBWaWV0bmFt!5e0!3m2!1sen!2sus!4v1716175423630!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1003335.1117007717!2d106.729799!3d10.790024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eb1ff47fbb3%3A0xee2fc764c10f81d7!2zTkjDgCBIw4BORyBUSeG7hkMgQ8av4buaSSBOYW0gQuG7mQ!5e0!3m2!1sen!2sus!4v1743219211079!5m2!1sen!2sus"
           className="maps"
           allowfullscreen=""
           loading="lazy"
