@@ -27,7 +27,7 @@ body {
   }
   .na {
     position: absolute;
-    top: 84%;
+    top: 79%;
     left: 35%;
     font-size: 0.9rem;
     font-weight: bold;
@@ -48,9 +48,9 @@ body {
   }
   .na-back {
     position: absolute;
-    top: 37%;
+    top: 36%;
     left: 25%;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     font-weight: bold;
     background: linear-gradient(
       45deg,
